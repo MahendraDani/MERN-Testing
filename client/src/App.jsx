@@ -7,7 +7,7 @@ function App() {
     try {
       e.preventDefault();
       const response = await axios.post(
-        "https://mern-testing-psi.vercel.app/user",
+        "https://mern-testing-api.vercel.app/user",
         {
           name: name,
           age: age,
