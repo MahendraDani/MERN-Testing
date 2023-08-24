@@ -6,10 +6,13 @@ function App() {
   const handleUser = async (e) => {
     try {
       e.preventDefault();
-      const response = await axios.post("http://localhost:3001/user", {
-        name: name,
-        age: age,
-      });
+      const response = await axios.post(
+        "https://mern-testing-psi.vercel.app/user",
+        {
+          name: name,
+          age: age,
+        }
+      );
 
       console.log(response.data);
     } catch (error) {
