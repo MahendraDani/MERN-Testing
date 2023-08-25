@@ -12,6 +12,7 @@ dbConnect();
 app.use(
   cors({
     origin: "https://mern-testing-psi.vercel.app/",
+    optionsSuccessStatus: 200,
   })
 );
 app.use(bodyParser.json());
