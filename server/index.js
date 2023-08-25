@@ -9,12 +9,7 @@ const { dbConnect } = require("./config/dbConfig");
 const app = express();
 dbConnect();
 
-app.use(
-  cors({
-    origin: "https://mern-testing-psi.vercel.app/",
-    optionsSuccessStatus: 200,
-  })
-);
+app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.get("/", (req, res) => {
