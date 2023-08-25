@@ -1,4 +1,3 @@
-// api - https://mern-testing-api.vercel.app
 import axios from "axios";
 import { useState } from "react";
 function App() {
