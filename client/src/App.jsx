@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <section className="w-full h-screen flex justify-center items-center">
-        <div className="flex flex-col justify-between items-center bg-[#F1E9DB] p-6 px-12 gap-8 rounded-md shadow-md">
+        <div className="flex flex-col justify-between items-center bg-sky-400 p-6 px-12 gap-8 rounded-md shadow-md">
           <div>
             <h1 className="font-bold text-3xl text-[#716A5C]">JOIN US</h1>
           </div>
